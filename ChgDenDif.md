@@ -4,7 +4,7 @@
 
 ## 2. Charge density calculation (for system A, system B, and system AB)
 
-*in.pp.A*
+**in.pp.A**
 ```
 &INPUTPP
 prefix = 'A'
@@ -14,7 +14,7 @@ plot_num=0
 /
 ```
 
-*in.pp.B*
+**in.pp.B**
 ```
 &INPUTPP
 prefix = 'B'
@@ -24,7 +24,7 @@ plot_num=0
 /
 ```
 
-*in.pp.AB*
+**in.pp.AB**
 ```
 &INPUTPP
 prefix = 'AB'
@@ -50,7 +50,7 @@ plot_num=0
 ## 3. Charge density difference calculation
 
 
-*in.pp.dif*
+**in.pp.dif**
 ```
  &INPUTPP
  /
@@ -69,6 +69,14 @@ plot_num=0
  /
 ```
 
-NOTE:   (a) difference.cube can be visualized by VESTA  
-        (b) change output_format = 5 and fileout = 'difference.xsf' if you want to use xcrysden (HINT: SLOWER interface)  
-        (c) default nfile max = 7 so if you need more, increase 'nfilemax' in ~/QEdir/PP/src/chden_module.f90 and recompile quantum espresso
+|NOTE:||
+|---|---|
+|(a)|difference.cube can be visualized by VESTA|
+|(b)|change output_format = 5 and fileout = 'difference.xsf' if you want to use xcrysden (HINT: SLOWER interface)|
+|(c)|default nfile max = 7 so if you need more, increase 'nfilemax' in ~/QEdir/PP/src/chden_module.f90 and recompile quantum espresso|
+
+## 4. Visualize with VESTA or XCRYSDEN
+
+**VESTA**: http://jp-minerals.org/vesta/en/
+
+**XCRYSDEN**: http://www.xcrysden.org/
