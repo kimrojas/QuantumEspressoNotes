@@ -34,19 +34,19 @@ plot_num=0
 /
 ```
 
-|NOTE:| plot_num = 0  |:: electron (pseudo-)charge density  |
+|NOTE:|  | |
 | ---    |      ---         |  ---                    |
+|     | plot_num = 0 |:: electron (pseudo-)charge density  |
 |     | plot_num = 17 |:: all-electron valence charge density (PAW POTENTIAL REQUIRED)  |
 |     | plot_num = 21 |:: all-electron charge density (valence+core) (PAW POTENIAL REQUIRED)|
 
 
-RUN: 
+|RUN: | |
+| ---| ---|
+||mpirun pp.x -in in.pp.A > out.pp.A|
+||mpirun pp.x -in in.pp.B > out.pp.B|
+||mpirun pp.x -in in.pp.AB > out.pp.AB|
 
-```
-mpirun pp.x -in in.pp.A > out.pp.A
-mpirun pp.x -in in.pp.B > out.pp.B
-mpirun pp.x -in in.pp.AB > out.pp.AB
-```
 ## 3. Charge density difference calculation
 
 
