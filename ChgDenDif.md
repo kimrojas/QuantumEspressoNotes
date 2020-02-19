@@ -34,9 +34,9 @@ plot_num=0
 /
 ```
 
-NOTE: plot_num = 0  :: electron (pseudo-)charge density  
-      plot_num = 17 :: all-electron valence charge density (PAW POTENTIAL REQUIRED)  
-      plot_num = 21 :: all-electron charge density (valence+core) (PAW POTENIAL REQUIRED)
+NOTE:| plot_num = 0  |:: electron (pseudo-)charge density  
+     | plot_num = 17 |:: all-electron valence charge density (PAW POTENTIAL REQUIRED)  
+     | plot_num = 21 |:: all-electron charge density (valence+core) (PAW POTENIAL REQUIRED)
 
 
 RUN: 
